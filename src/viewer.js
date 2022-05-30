@@ -62,7 +62,11 @@ const KTX2_LOADER = new KTX2Loader(MANAGER).setTranscoderPath(`${THREE_PATH}/exa
 
 const IS_IOS = isIOS();
 
-const zks = ['ZK001', 'ZK002', 'ZK003', 'ZK004', 'ZK101', 'ZK102', 'ZK103', 'ZK104', 'ZK302', 'ZK304', 'ZK401', 'ZK501', 'ZK502', 'ZK504', 'ZK701-1', 'ZK701', 'ZK702', 'ZK703', 'ZK801', 'ZK901', 'ZK902', 'ZK903-1', 'ZK903', 'ZK905', 'ZK1101', 'ZK1103', 'ZK1105', 'ZKJ701-1', 'ZKJ701', 'ZKJ903']
+const zks = [
+  'ZK001', 'ZK002', 'ZK003', 'ZK004', 'ZK101', 'ZK102', 'ZK103', 'ZK104', 'ZK302', 'ZK304', 'ZK401', 'ZK501', 'ZK502', 'ZK504', 'ZK701-1', 'ZK701', 'ZK702', 'ZK703', 'ZK801', 'ZK901', 'ZK902', 'ZK903-1', 'ZK903', 'ZK905', 'ZK1101', 'ZK1103', 'ZK1105', 'ZKJ701-1', 'ZKJ701', 'ZKJ903',
+  'ZK06-2', 'ZK07-9', 'ZK07-10', 'ZK10-1', 'ZK105', 'ZK301-1', 'ZK301', 'ZK303-1', 'ZK303', 'ZK305', 'ZK501-1', 'ZK503-1', 'ZK503',
+  'ZK703-1', 'ZK705', 'ZKJ501-1', 'ZKJ501', 'ZKJ503-1', 'ZKJ503', 'ZKJ505', 'ZKJ703-1', 'ZKJ703', 'ZKJ705'
+]
 
 // glTF texture types. `envMap` is deliberately omitted, as it's used internally
 // by the loader but not part of the glTF format.
