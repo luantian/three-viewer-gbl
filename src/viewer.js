@@ -918,7 +918,8 @@ export class Viewer {
       xqufan = true
       yqufan = true
       zqufan = true
-      gui.reset()
+      // gui.reset()
+      this.controls.reset()
     }}, '复位')
 
     gui.add({'全屏': () => {
